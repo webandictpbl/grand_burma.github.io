@@ -1,0 +1,985 @@
+
+
+*{
+    box-sizing: border-box;
+    margin:0 ;
+    padding: 0;
+}
+
+#nav ul {
+    list-style: none;
+    margin: 0px;
+    padding:0;
+    opacity: 1;
+    font-size: 20px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #814212;
+    height: 7vh; 
+    
+    
+}
+
+
+#nav{
+    position: fixed;
+    width: 100%;
+}
+    
+
+li{
+    float: left;
+}
+
+
+#nav ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    color: yellow;
+    font-size: 20px;
+    padding: 15px 30px;
+    font-family: Rockwell;
+    margin-right: 100px;
+}
+
+
+#nav ul li:hover{
+    background-color: #ca6702;  
+    height: 7.5vh; 
+}
+
+
+.banner1{
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin:3% 0;
+}
+
+#imgbanner{
+    height: 65vh;
+    width: 100%;
+}
+
+.banner2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.txtbox{
+    border: solid black 3px;
+    height: 61vh;
+    width: 30vw;
+}
+
+.mm-map{
+    height: 61vh;
+    width: 45vw;
+}
+
+
+
+.mm-map, .txtbox{
+    margin: 70px;
+}
+
+.banner-btn{
+    text-decoration: none;
+    border: solid black 3px;
+    height: 5vh;
+    width: 20vw;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #ca6702;
+}
+
+.banner-btn a{
+  text-decoration: none; 
+  color: yellow; 
+  font-size: 23;
+}
+
+
+
+.banner-btn:hover{
+    height: 6vh;
+    width: 24vw;
+    transition:  0.5s;
+}
+
+
+.pic1, .pic2, .pic3{
+    height: 45vh;
+    width: 20vw;
+    margin: auto;
+}
+
+
+
+.zlhimg, .khkimg, .stimg{
+    height: 25vh;
+    width: 20vw;
+    flex-wrap: wrap;
+}
+
+
+img{
+    height: 25vh;
+    width:15vw ;
+}
+
+.pictures, .abtus-txt{
+    display: flex;
+    
+}
+/* .pic{
+    width:30vw;
+    border:1px solid red;
+} */
+.abtus-txt
+.zlh-btn, .khk-btn, .st-btn{
+    border: solid black 3px;
+    border-radius: 10px;
+    height: 5vh;
+    width: 17vw;
+    margin: auto;
+    background-color: #ca6702;
+    flex-wrap: wrap;
+    
+}
+
+.zlh-btn{
+    border: solid black 3px;
+    border-radius: 10px;
+    height: 5vh;
+    width: 17vw;
+    margin: auto;
+    background-color: #ca6702;
+    flex-wrap: wrap;
+    
+}
+
+.st-btn a{
+    text-decoration: none;
+    color: yellow;
+    cursor: pointer;
+    
+}
+
+.zlh-btn a{
+    text-decoration: none;
+    color: yellow;
+    cursor: pointer;
+    
+}
+
+.khk-btn a{
+    text-decoration: none;
+    color: yellow;
+    cursor: pointer;
+    
+}
+
+.st-btn:hover{
+    height: 6h;
+    width: 20vw;
+    transition: 0.5s;
+}
+
+.zlh-btn:hover{
+    height: 6h;
+    width: 20vw;
+    transition: 0.5s;
+}
+
+.khk-btn:hover{
+    height: 6h;
+    width: 20vw;
+    transition: 0.5s;
+}
+
+#aboutus{
+    flex-wrap: wrap;
+}
+
+iframe {
+    height: 61vh;
+    width: 45vw;
+}
+
+
+
+.hr, .hr1{
+    border: solid black 1px;
+}
+
+.yellowtxt{
+    font-size: 20px;
+    color: yellow;
+}
+
+.greentxt{
+    color: green;
+    font-size: 20px;
+}
+
+.redtxt{
+    color: red;
+    font-size: 20px;
+}
+
+.txtbox{
+    background-color: black;
+}
+
+.txtboxtitle {
+    color: white;
+    font-size: 30px;
+    font-family: Japanese;
+}
+
+body {background-color: #fcec77; 
+}
+
+i{
+    font-size: 30px;
+}
+
+html{
+    scroll-behavior: smooth;
+  }
+
+.up-arrow{
+    width: 30px;
+    height: 30px;
+    margin: 5px 0;
+}
+
+.up-btn{
+    border: solid black 3px;
+    background-color: #ca6702;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    float: right;
+    margin: 0 1%;
+    /* position: fixed; */
+}
+
+/* STATE */
+.chin-kachin, .kayah-kayin, .mon-rakhine{
+    display: flex;
+    gap: 5px;
+    margin: 2% 0;
+    flex-wrap: wrap;
+}
+
+.shan{
+    flex-wrap: wrap;
+}
+
+.chin, .kachin, .kayah, .kayin, .mon, .rakhine{
+    /* margin: auto; */
+    margin: auto;
+}
+
+.chintxt{
+    border: solid black;
+    background-color: #ca6702;
+    color: yellow;
+    border-radius: 10px;
+    height: 30vh;
+    font-size: 25px;
+}
+.kachintxt{
+    border: solid black;
+    background-color: #ca6702;
+    color: yellow;
+    border-radius: 10px;
+    height: 30vh;
+    height: 30vh;
+    font-size: 25px;
+}
+
+.kayahtxt{
+    border: solid black;
+    background-color: #ca6702;
+    color: yellow;
+    border-radius: 10px;
+    height: 30vh;
+    font-size: 25px;
+}
+
+.kayintxt{
+    border: solid black;
+    background-color: #ca6702;
+    color: yellow;
+    border-radius: 10px;
+    height: 30vh;
+    font-size: 25px ;
+}
+.montxt{
+    border: solid black;
+    background-color: #ca6702;
+    color: yellow;
+    border-radius: 10px;
+    height: 30vh;
+    font-size: 25px ;
+}
+.rakhinetxt{
+    border: solid black;
+    background-color: #ca6702;
+    color: yellow;
+    border-radius: 10px;
+    height: 30vh;
+    font-size: 25px ;
+}
+.shantxt{
+    border: solid black;
+    background-color: #ca6702;
+    color: yellow;
+    border-radius: 10px;
+    height: 30vh;
+    width: 35vw;
+    font-size: 25px ;
+}
+
+/* CITIES */
+.Cities{
+    border: solid black 3px;
+    font-family: Lucida Handwriting; 
+    margin: auto;
+    width: 90%;
+          
+}
+
+
+.citiesimg{
+    height: 65vh;
+    width: 95%;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+.hr{
+    border: solid black 1px;
+}
+
+/* top5 */
+.top5img{
+    width: 45vw;
+    height: 45vh;
+    margin: auto;
+}
+
+.txt5{
+    font-size: 25px;
+    margin: auto;
+    width: 60vw;
+}
+
+
+.bago{
+    width: 45vw;
+    height: 45vh;
+}
+
+/* top4 */
+
+.top4img{
+    width: 45vw;
+    height: 45vh;
+    margin: auto;
+}
+
+.txt4{
+    font-size: 25px;
+    margin: auto;
+    width: 60vw;
+}
+
+.mawlamyine{
+    width: 45vw;
+    height: 45vh;
+}
+
+/* top 3 */
+.top3img{
+    width: 45vw;
+    height: 45vh;
+    margin: auto;
+}
+
+.txt3{
+    font-size: 25px;
+    margin: auto;
+    width: 60vw;
+}
+
+.Naypyidaw{
+    width: 45vw;
+    height: 45vh;
+}
+
+/* top 2 */
+.top2img{
+    width: 45vw;
+    height: 45vh;
+    margin: auto;
+}
+
+.txt2{
+    font-size: 25px;
+    margin: auto;
+    width: 60vw;
+}
+
+.Mandalay{
+    width: 45vw;
+    height: 45vh;
+}
+
+/* top 1 */
+.top1img{
+    width: 45vw;
+    height: 45vh;
+    margin: auto;
+}
+
+.txt1{
+    font-size: 25px;
+    margin: auto;
+    width: 60vw;
+}
+
+
+.Yangon{
+    width: 45vw;
+    height: 45vh;
+}
+
+
+
+h3, h4 ,h2{
+    color: #ca6702;
+
+}
+
+.Logos{
+    color: #ca6702;
+    margin-left: 250px;
+
+    
+}
+
+/* i{
+    margin-right: 1vw;
+
+} */
+.tblock{
+    display: none;
+    
+}
+
+.txt:hover > span{
+    display: inline-block;
+    background: yellow;
+    font-size: 20px;
+    
+
+}
+
+.flus{
+    text-align:center;
+      
+}
+
+
+
+.ctus{
+    float: right;
+   
+   
+}
+
+
+
+.phlogo{
+   
+    font-size: 25px;
+    color: #ca6702;
+}
+
+.footer{
+    display:flex;
+    /* flex-wrap: wrap; */
+    
+}
+
+.contact_us, .follow_us{
+    width: 50vw;
+   
+   
+}
+
+
+
+
+.phnumber{
+    font-size: 30px
+}
+
+
+.logo{
+    height: 7vh;
+    width: 4vw ;
+    float: left;
+}
+
+
+
+.logotxt{
+    height: 7vh;
+    width: 20vh;
+    float: left;
+}
+
+.ref{
+    text-decoration: none;
+    float: left;
+    font-size: 20px;
+    border: solid black 3px;
+    width: 15vw;
+    height: 5vh;
+    border-radius: 10px;
+    background-color: #ca6702;
+    color: yellow;
+}
+
+.ref{
+    text-decoration: none;
+}
+
+.ref-hr{
+    width: 10%;
+    border: solid black 2px;
+}
+
+
+/* media query */
+    
+
+
+@media all and (max-width:576px){
+    .Logos{
+        /* flex-direction: column; */
+        /* border: 1px solid red; */
+        margin-left: 10px;
+    }
+    .contact_us, .follow_us{
+        width: 40vw;
+       
+       
+    }
+    .txtbox{
+        border: solid black 3px;
+        height: 60vh;
+        width: 65vw;
+    }
+
+    .banner2-map{
+        height: 61vh;
+        width: 70vw;
+    }
+     .banner-btn{
+        text-decoration: none;
+        border: solid black 3px;
+        height: 5vh;
+        width: 45vw;
+        margin: auto;
+        justify-content: center;
+        display: flex;
+        cursor: pointer;
+        border-radius: 10px;
+        background-color: #ca6702;
+    }
+
+    .banner-btn a{
+    text-decoration: none; 
+    color: yellow; 
+    font-size: 23;
+    }
+
+    .pictures{
+        flex-direction: column;
+    }
+
+    .banner-btn:hover{
+        height: 6vh;
+        width: 47vw;
+        transition:  0.5s;
+    }
+
+    .banner1{
+        height: 65vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin:3% 0;
+    }
+    
+    #imgbanner{
+        height: 50vh;
+        width: 100%;
+    }
+
+    .txt5{
+        font-size: 20px;
+        margin: auto;
+        width: 65vw;
+    }
+    
+    
+    /* .bago{
+        width: 70vw;
+        height: 30vh;
+        margin:50% 0;
+    } */
+
+    .top5img{
+        border: 1px solid black;
+    }
+
+    #nav ul li a{
+        float: none;
+        width: 100%;
+        height: 80vh;
+        margin: 2% 0;
+        font-size: 15px;
+        padding: 15px 25px;
+    }
+
+    iframe{
+        width: 100%;
+    }
+
+    .kayahtxt{
+        height: 55vh;
+    }
+
+    .kayintxt{
+        height: 45vh;
+    }
+
+    .montxt{
+        height: 54vh;
+    }
+
+    .rakhinetxt{
+        height: 55vh;
+    }
+
+    .shantxt{
+        width: 100%;
+        
+    }
+
+    .zlhimg, .khkimg, .stimg{
+        height: 25vh;
+        width: 40vw;
+    }
+
+    .zlh-btn, .khk-btn, .st-btn{
+        height: 5.5vh;
+        width: 37vw;
+        
+    }
+
+    .zlh-btn:hover{
+        height: 6vh;
+        width: 40vw;
+    }
+
+    .khk-btn:hover{
+        height: 6vh;
+        width: 40vw;
+    }
+
+    .st-btn:hover{
+        height: 6vh;
+        width: 40vw;
+    }
+
+    
+    .ref{
+        width: 40vw;
+        height: 5vh;
+    }
+
+
+    
+
+
+}
+
+@media all and (max-width:768px){
+
+    .banner2-map{
+        height: 61vh;
+        width: 80vw;
+    }
+
+    .txtbox{
+        border: 3px solid black ;
+        height: 60vh;
+        width: 100vw;
+    }
+
+    .banner-btn{
+        text-decoration: none;
+        border: solid black 3px;
+        height: 5vh;
+        width: 45vw;
+        margin: auto;
+        justify-content: center;
+        display: flex;
+        cursor: pointer;
+        border-radius: 10px;
+        background-color: #ca6702;
+    }
+
+    .banner-btn a{
+    text-decoration: none; 
+    color: yellow; 
+    font-size: 23;
+    }
+
+
+
+    .banner-btn:hover{
+        height: 6vh;
+        width: 47vw;
+        transition:  0.5s;
+    }
+
+    .banner1{
+        height: 65vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin:3% 0;
+    }
+    
+    #imgbanner{
+        height: 50vh;
+        width: 100%;
+    }
+
+    .txt5{
+        font-size: 20px;
+        margin: auto;
+        width: 65vw;
+    }
+    
+/*     
+    .bago{
+        width: 70vw;
+        height: 30vh;
+        margin:50% 0;
+    } */
+
+    #nav ul li a{
+        float: none;
+        width: 100%;
+        height: 80vh;
+        margin: 2% 0;
+        font-size: 15px;
+        padding: 15px 25px;
+    }
+    iframe{
+        width: 100%;
+    }
+
+    .kayahtxt{
+        height: 55vh;
+    }
+
+    .kayintxt{
+        height: 45vh;
+    }
+
+    .montxt{
+        height: 54vh;
+    }
+
+    .rakhinetxt{
+        height: 55vh;
+    }
+
+    .shantxt{
+        width: 100%;
+        
+    }
+
+    .zlhimg, .khkimg, .stimg{
+        height: 25vh;
+        width: 40vw;
+    }
+
+    .zlh-btn, .khk-btn, .st-btn{
+        height: 5.5vh;
+        width: 37vw;
+        
+    }
+
+    .zlh-btn:hover{
+        height: 6vh;
+        width: 40vw;
+    }
+
+    .khk-btn:hover{
+        height: 6vh;
+        width: 40vw;
+    }
+
+    .st-btn:hover{
+        height: 6vh;
+        width: 40vw;
+    }
+
+
+}
+
+@media all and (max-width:992px){
+
+    .banner2-map{
+        height: 61vh;
+        width: 80vw;
+    }
+
+    .txtbox{
+        border: solid black 3px;
+        height: 60vh;
+        width: 100vw;
+    }
+     .banner-btn{
+        text-decoration: none;
+        border: solid black 3px;
+        height: 5vh;
+        width: 45vw;
+        margin: auto;
+        justify-content: center;
+        display: flex;
+        cursor: pointer;
+        border-radius: 10px;
+        background-color: #ca6702;
+    }
+
+    .banner-btn a{
+    text-decoration: none; 
+    color: yellow; 
+    font-size: 23;
+    }
+
+
+
+    .banner-btn:hover{
+        height: 6vh;
+        width: 47vw;
+        transition:  0.5s;
+    }
+
+    .banner1{
+        height: 65vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin:3% 0;
+    }
+    
+    #imgbanner{
+        height: 50vh;
+        width: 100%;
+    }
+    .txt5{
+        font-size: 20px;
+        margin: auto;
+        width: 65vw;
+    }
+    
+    
+    /* .bago{
+        width: 70vw;
+        height: 30vh;
+        margin:50% 0;
+    } */
+    #nav ul li a{
+        float: none;
+        width: 100%;
+        height: 80vh;
+        margin: 2% 0;
+        font-size: 15px;
+        padding: 15px 25px;
+    }
+
+    iframe{
+        width: 100%;
+    }
+
+    .kayahtxt{
+        height: 55vh;
+    }
+
+    .kayintxt{
+        height: 45vh;
+    }
+
+    .montxt{
+        height: 54vh;
+    }
+
+    .rakhinetxt{
+        height: 55vh;
+    }
+
+    .shantxt{
+        width: 100%;
+        
+    }
+
+    .zlhimg, .khkimg, .stimg{
+        height: 25vh;
+        width: 40vw;
+    }
+
+    .zlh-btn, .khk-btn, .st-btn{
+        height: 5.5vh;
+        width: 37vw;
+        
+    }
+
+    .zlh-btn:hover{
+        height: 6vh;
+        width: 40vw;
+    }
+
+    .khk-btn:hover{
+        height: 6vh;
+        width: 40vw;
+    }
+
+    .st-btn:hover{
+        height: 6vh;
+        width: 40vw;
+    }
+
+
+}
